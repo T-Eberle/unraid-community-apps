@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>langflow</Name>
+  <Repository>langflowai/langflow:latest</Repository>
+  <Registry/>
+  <Network>br0</Network>
+  <MyIP>10.0.1.88</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/192818-support-langflow/</Support>
+<Project>https://github.com/langflow-ai/langflow</Project>
+<Overview>Langflow is a powerful tool for building and deploying AI-powered agents and workflows. It provides developers with both a visual authoring experience and built-in API and MCP servers that turn every workflow into a tool that can be integrated into applications built on any framework or stack. Langflow comes with batteries included and supports all major LLMs, vector databases and a growing library of AI tools.&#xD;
+&#xD;
+&#xD;
+More information &#x2192; https://github.com/langflow-ai/langflow&#xD;
+Discord: Join for support &#x2192; https://discord.com/invite/EqksyE2EX9</Overview>
+  <Category>AI: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:7860]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://avatars.githubusercontent.com/u/85702467?v=4</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1755285836</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="LANGFLOW_DATABASE_URL" Target="LANGFLOW_DATABASE_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Data" Target="/app/langflow" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="LANGFLOW_CONFIG_DIR" Target="LANGFLOW_CONFIG_DIR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/app/langflow</Config>
+  <Config Name="LANGFLOW_AUTO_LOGIN" Target="LANGFLOW_AUTO_LOGIN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="LANGFLOW_SUPERUSER" Target="LANGFLOW_SUPERUSER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="LANGFLOW_SUPERUSER_PASSWORD" Target="LANGFLOW_SUPERUSER_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="LANGFLOW_SECRET_KEY" Target="LANGFLOW_SECRET_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="LANGFLOW_NEW_USER_IS_ACTIVE" Target="LANGFLOW_NEW_USER_IS_ACTIVE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="LANGFLOW_ENABLE_SUPERUSER_CLI" Target="LANGFLOW_ENABLE_SUPERUSER_CLI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">False</Config>
+  <Config Name="LANGFLOW_WORKERS" Target="LANGFLOW_WORKERS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">2</Config>
+  <Config Name="DO_NOT_TRACK" Target="DO_NOT_TRACK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <TailscaleStateDir/>
+</Container>
